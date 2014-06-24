@@ -555,6 +555,7 @@ public class MainActivity extends ReportingActivity implements DialogInterface.O
     public static native char login();
     public static native char register();
     public static native void viewErr(); //TODO: Figure this out
+
     //@formatter:on
 
     static
