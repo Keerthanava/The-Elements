@@ -548,13 +548,19 @@ public class MainActivity extends ReportingActivity implements DialogInterface.O
     //Accelerometer related
     public static native void setXGravity(float xGravity);
     public static native void setYGravity(float yGravity);
-        
+
+    // Below are the list of tasks we intend to perform as part of this course
     //TODO: Network related
+    //TODO : Add features for music and sound for button clicks
+    // Enhance the documentation and create a how to use feature
     public static native void setUsername(char[] username);
     public static native void setPassword(char[] password);
     public static native char login();
     public static native char register();
-    public static native void viewErr(); //TODO: Figure this out
+    public static native void viewErr();
+
+
+
 
     //@formatter:on
 
