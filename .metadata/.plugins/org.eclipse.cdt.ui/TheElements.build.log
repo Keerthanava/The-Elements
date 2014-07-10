@@ -1,58 +1,10 @@
-13:39:35 **** Incremental Build of configuration Default for project TheElements ****
+14:09:02 **** Build of configuration Default for project TheElements ****
 "F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
 Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
-[armeabi-v7a] Compile thumb  : thelements <= app-android.c
-[armeabi-v7a] Compile thumb  : thelements <= app.c
-[armeabi-v7a] Compile thumb  : thelements <= collide.c
-[armeabi-v7a] Compile thumb  : thelements <= elementproperties.c
-[armeabi-v7a] Compile thumb  : thelements <= importgl.c
-[armeabi-v7a] Compile thumb  : thelements <= points.c
-[armeabi-v7a] Compile thumb  : thelements <= rendergl.c
-[armeabi-v7a] Compile thumb  : thelements <= saveload.c
-[armeabi-v7a] Compile thumb  : thelements <= setup.c
-[armeabi-v7a] Compile thumb  : thelements <= specials.c
-[armeabi-v7a] Compile thumb  : thelements <= update.c
-[armeabi-v7a] SharedLibrary  : libthelements.so
 [armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
-[armeabi] Compile thumb  : thelements <= app-android.c
-[armeabi] Compile thumb  : thelements <= app.c
-[armeabi] Compile thumb  : thelements <= collide.c
-[armeabi] Compile thumb  : thelements <= elementproperties.c
-[armeabi] Compile thumb  : thelements <= importgl.c
-[armeabi] Compile thumb  : thelements <= points.c
-[armeabi] Compile thumb  : thelements <= rendergl.c
-[armeabi] Compile thumb  : thelements <= saveload.c
-[armeabi] Compile thumb  : thelements <= setup.c
-[armeabi] Compile thumb  : thelements <= specials.c
-[armeabi] Compile thumb  : thelements <= update.c
-[armeabi] SharedLibrary  : libthelements.so
 [armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
-[x86] Compile        : thelements <= app-android.c
-[x86] Compile        : thelements <= app.c
-[x86] Compile        : thelements <= collide.c
-[x86] Compile        : thelements <= elementproperties.c
-[x86] Compile        : thelements <= importgl.c
-[x86] Compile        : thelements <= points.c
-[x86] Compile        : thelements <= rendergl.c
-[x86] Compile        : thelements <= saveload.c
-[x86] Compile        : thelements <= setup.c
-[x86] Compile        : thelements <= specials.c
-[x86] Compile        : thelements <= update.c
-[x86] SharedLibrary  : libthelements.so
 [x86] Install        : libthelements.so => libs/x86/libthelements.so
-[mips] Compile        : thelements <= app-android.c
-[mips] Compile        : thelements <= app.c
-[mips] Compile        : thelements <= collide.c
-[mips] Compile        : thelements <= elementproperties.c
-[mips] Compile        : thelements <= importgl.c
-[mips] Compile        : thelements <= points.c
-[mips] Compile        : thelements <= rendergl.c
-[mips] Compile        : thelements <= saveload.c
-[mips] Compile        : thelements <= setup.c
-[mips] Compile        : thelements <= specials.c
-[mips] Compile        : thelements <= update.c
-[mips] SharedLibrary  : libthelements.so
 [mips] Install        : libthelements.so => libs/mips/libthelements.so
 
-13:39:54 Build Finished (took 19s.323ms)
+14:09:06 Build Finished (took 3s.787ms)
 
