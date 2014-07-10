@@ -1,0 +1,7 @@
+*~
+*.o
+*.so
+bin/
+gen/
+obj/
+libthelements.so
