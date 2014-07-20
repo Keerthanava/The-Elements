@@ -185,3 +185,234 @@ Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersi
 [armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
 [x86] Install        : libthelements.so => libs/x86/libthelements.so
 [mips] Install        : libthelements.so => libs/mips/libthelements.so
+14:32:24 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+20:07:11 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+20:08:07 **** Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+11:34:31 **** Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+19:59:44 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+20:04:23 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+20:08:47 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+20:12:05 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+20:12:22 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+20:14:27 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+22:49:24 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+22:51:01 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+23:01:47 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+23:18:25 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+10:29:10 **** Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+11:25:18 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+11:33:16 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+11:38:50 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+11:43:03 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+11:53:16 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+11:54:34 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+12:06:59 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+12:32:14 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+12:50:11 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+14:00:48 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+14:02:16 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+14:05:55 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+14:06:33 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+14:08:49 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+14:10:11 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+14:12:16 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+14:19:06 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+14:22:50 **** Incremental Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
