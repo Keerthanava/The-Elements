@@ -1,0 +1,81 @@
+package com.idkjava.thelements;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.*;
+import android.database.sqlite.SQLiteDatabase;
+
+public class Login extends Activity {
+	
+	EditText Username;
+	EditText Password;
+	EditText Phone;
+	EditText Email;
+	Button Login,Register;
+
+	SharedPreferences sharedpreferences;
+	//SharedPreferences sharedregister;
+	 public static final String PREFS_NAME = "MyPrefs" ;
+	 
+	@Override
+	   protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+	      setContentView(R.layout.register_user);
+	      	Username = (EditText)findViewById(R.id.edt_username);
+		    Password = (EditText)findViewById(R.id.edt_password);
+		    Phone = (EditText)findViewById(R.id.edt_email);
+		    Email = (EditText)findViewById(R.id.edt_phone);		    
+ 	      
+	}
+	
+	public void Login(View view){
+	
+		SharedPreferences.Editor   editor = sharedpreferences.edit();
+		
+		String Uname = sharedpreferences.getString("Username", null);
+		String pword = sharedpreferences.getString("Password", null);
+	    
+	    Toast.makeText(getApplicationContext(), "You have logged in successfully", Toast.LENGTH_LONG).show();
+	    editor.clear();
+		//if(Uname!=null &&pword!=null){
+	    Intent intent = new Intent(Login.this, MenuActivity.class);
+	    startActivity(intent);
+		//}
+	}
+	
+		public void Register(View view){	
+			
+	    setContentView(R.layout.register_user);	
+ 		
+	    sharedpreferences = getSharedPreferences(PREFS_NAME,Context.MODE_PRIVATE);
+		SharedPreferences.Editor   editor = sharedpreferences.edit();
+		
+		
+		/*editor.putString("Username", Username.getText().toString());
+	    editor.putString("Password", Password.getText().toString());
+	    editor.putString("Phone", Phone.getText().toString());
+	    editor.putString("Email", Email.getText().toString());
+	    
+	    
+	    editor.commit();*/
+	    Toast.makeText(getApplicationContext(), "You have Registered successfully.Enter details to Login...", Toast.LENGTH_LONG).show();
+	    editor.clear();
+	    setContentView(R.layout.login_layout);	
+	   // Intent intent = new Intent(Login.this, MenuActivity.class);
+	    //startActivity(intent);
+	    
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,15 @@
+INDEX VERSION 1.126+F:\MS_CS\COMP312_OpenSourceComputing\Eclipse_Elements\.metadata\.plugins\org.eclipse.jdt.core
+3106158236.index
+2847325655.index
+1178538558.index
+2447826915.index
+4056480913.index
+649131534.index
+973186024.index
+2543640060.index
+3358362924.index
+393572466.index
+1268037837.index
+1306943738.index
+1303887837.index
+2977084541.index

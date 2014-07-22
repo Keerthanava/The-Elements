@@ -1,0 +1,10 @@
+20:41:07 **** Build of configuration Default for project TheElements ****
+"F:\\MS_CS\\Softwares\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 10 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libthelements.so => libs/armeabi-v7a/libthelements.so
+[armeabi] Install        : libthelements.so => libs/armeabi/libthelements.so
+[x86] Install        : libthelements.so => libs/x86/libthelements.so
+[mips] Install        : libthelements.so => libs/mips/libthelements.so
+
+20:41:13 Build Finished (took 5s.986ms)
+
