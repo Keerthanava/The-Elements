@@ -1,0 +1,132 @@
+[
+  {
+    "symbolicName": "annotations",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e1b70514f9bbb17c42708fe48b97e0a3fd9fc81f",
+    "jarFileModificationDate": "2014-07-09T13:01:10.040-05:00",
+    "location": "C:\\Users\\Keerthana\\AppData\\Local\\Android\\android-studio2\\sdk\\tools\\support\\annotations.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "FlurryAgent",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "77ac4fc29122cfb090aa2d9f6656f059206b5b3d",
+    "jarFileModificationDate": "2014-07-10T11:27:21.367-05:00",
+    "location": "F:\\MS_CS\\COMP312_OpenSourceComputing\\Eclipse_Elements\\the-elements\\TheElements-dev\\libs\\FlurryAgent.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "mobclix",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b45ae12d86db8f51fd6bdbaf55cb72ad3d1c0dc6",
+    "jarFileModificationDate": "2014-07-10T11:27:12.213-05:00",
+    "location": "F:\\MS_CS\\COMP312_OpenSourceComputing\\Eclipse_Elements\\the-elements\\FallingSandpaper\\mobclix.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7f972d2aa0fcb741fc84a9a10c98555f6f431a7a",
+    "jarFileModificationDate": "2014-06-28T13:29:37.090-05:00",
+    "location": "C:\\Users\\Keerthana\\AppData\\Local\\Android\\android-studio2\\sdk\\platforms\\android-19\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "19cd75888d1d75d3ae3cb7a8692153da5d65eb13",
+    "jarFileModificationDate": "2014-07-08T22:16:39.179-05:00",
+    "location": "C:\\Users\\Keerthana\\AppData\\Local\\Android\\android-studio2\\sdk\\platforms\\android-7\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "maps",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c49be8f6bab271911c80bee6d571bf107d29a369",
+    "jarFileModificationDate": "2014-07-08T22:19:10.963-05:00",
+    "location": "C:\\Users\\Keerthana\\AppData\\Local\\Android\\android-studio2\\sdk\\add-ons\\addon-google_apis-google-7\\libs\\maps.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "322db3959c3383f4be9daa75ffa427d1485879ad",
+    "jarFileModificationDate": "2014-06-28T13:35:15.917-05:00",
+    "location": "C:\\Users\\Keerthana\\AppData\\Local\\Android\\android-studio2\\sdk\\platforms\\android-17\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "pollfish",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bf2fd28c0f8e3f4f0fc60796e5a4cc09db42c8e1",
+    "jarFileModificationDate": "2014-07-10T11:27:15.696-05:00",
+    "location": "F:\\MS_CS\\COMP312_OpenSourceComputing\\Eclipse_Elements\\the-elements\\TheElements-dev\\libs\\pollfish.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "ambilwarna",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "63dcd31f52e47735f56766a4339286b0dba13a76",
+    "jarFileModificationDate": "2014-07-21T09:43:44.984-05:00",
+    "location": "F:\\MS_CS\\COMP312_OpenSourceComputing\\Eclipse_Elements\\the-elements\\android-color-picker\\AmbilWarna\\bin\\ambilwarna.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "libGoogleAnalyticsServices",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "db1e65d9e3ee616f871cb23120fbea8f18ad3e4c",
+    "jarFileModificationDate": "2014-07-10T11:27:13.729-05:00",
+    "location": "F:\\MS_CS\\COMP312_OpenSourceComputing\\Eclipse_Elements\\the-elements\\TheElements-dev\\libs\\libGoogleAnalyticsServices.jar",
+    "javaRuntime": false
+  }
+]
