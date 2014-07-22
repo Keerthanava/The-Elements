@@ -1,0 +1,88 @@
+package com.idkjava.thelements;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.util.Log;
+import android.view.View;
+import android.widget.*;
+import android.database.sqlite.SQLiteDatabase;
+
+public class Login extends Activity {
+	
+	EditText Username;
+	EditText Password;
+	
+	SharedPreferences sharedpreferences;
+	//SharedPreferences sharedregister;
+	 public static final String PREFS_NAME = "RegisterUser" ;
+	 
+	@Override
+	   protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+	      setContentView(R.layout.login_layout);
+	     // finish();
+	      	
+		    	   		    
+ 	      
+	}
+	
+	public void Login(View view){
+		
+		Username = (EditText)findViewById(R.id.txt_username);
+	    Password = (EditText)findViewById(R.id.txt_password);
+
+	
+		sharedpreferences = getSharedPreferences(PREFS_NAME,Context.MODE_PRIVATE);
+	    //sharedpreferences  = PreferenceManager.getDefaultSharedPreferences(this);
+		SharedPreferences.Editor editor = sharedpreferences.edit();
+		
+		String Uname = sharedpreferences.getString("Username", null);
+		String pword = sharedpreferences.getString("Password", null);
+
+		
+		Log.d("Username is : ",Uname);
+		Log.d("Password is : ",pword);
+		
+		Log.d("EditText Username is :",Username.getText().toString());
+		Log.d("Password Username is :",Password.getText().toString());
+		
+		if(((Username.getText().toString()).equals(Uname))&&((Password.getText().toString()).equals(pword))){
+
+	    Toast.makeText(getApplicationContext(), "You have logged in successfully", Toast.LENGTH_LONG).show();
+	   // editor.clear();
+		//if(Uname!=null &&pword!=null){
+	    Intent intent = new Intent(Login.this, MenuActivity.class);
+	    startActivity(intent);
+		}
+		else 
+			
+		{
+			Toast.makeText(getApplicationContext(), "UserId/Password Invalid.. Register if new user", Toast.LENGTH_LONG).show();
+		}
+	}
+	
+	public void Register(View view){
+		
+		//if(Uname!=null &&pword!=null){
+	    Intent intent = new Intent(Login.this, Register.class);
+	    startActivity(intent);
+		//}
+	}
+	
+
+		
+		
+
+	
+	
+	
+	
+	
+	
+	
+
+}
