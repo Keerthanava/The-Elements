@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
+<<<<<<< HEAD
 		<cconfiguration id="com.android.toolchain.gcc.1355752813">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.android.toolchain.gcc.1355752813" moduleId="org.eclipse.cdt.core.settings" name="Default">
 				<externalSettings/>
@@ -23,13 +24,40 @@
 						<toolChain id="com.android.toolchain.gcc.114197482" name="Android GCC" superClass="com.android.toolchain.gcc">
 							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform.445242797" isAbstract="false" superClass="com.android.targetPlatform"/>
 							<builder id="com.android.builder.1659202522" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Android Builder" superClass="com.android.builder">
+=======
+		<cconfiguration id="com.android.toolchain.gcc.1592219880">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.android.toolchain.gcc.1592219880" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="com.android.toolchain.gcc.1592219880" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.android.toolchain.gcc.1592219880.975819979" name="/" resourcePath="">
+						<toolChain id="com.android.toolchain.gcc.350926670" name="com.android.toolchain.gcc" superClass="com.android.toolchain.gcc">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform.1137922475" isAbstract="false" superClass="com.android.targetPlatform"/>
+							<builder id="com.android.builder.550578760" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Android Builder" superClass="com.android.builder">
+>>>>>>> 1d7447080bd67576f8d5e6911257898db3b681f3
 								<outputEntries>
 									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="obj"/>
 									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="libs"/>
 								</outputEntries>
 							</builder>
+<<<<<<< HEAD
 							<tool id="com.android.gcc.compiler.1055566342" name="Android GCC Compiler" superClass="com.android.gcc.compiler">
 								<inputType id="com.android.gcc.inputType.992816206" superClass="com.android.gcc.inputType"/>
+=======
+							<tool id="com.android.gcc.compiler.1175828366" name="Android GCC Compiler" superClass="com.android.gcc.compiler">
+								<inputType id="com.android.gcc.inputType.1425228098" superClass="com.android.gcc.inputType"/>
+>>>>>>> 1d7447080bd67576f8d5e6911257898db3b681f3
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -41,14 +69,23 @@
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 	</storageModule>
+<<<<<<< HEAD
 	<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="TheElements.null.1378987719" name="TheElements"/>
+=======
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="TheElements.null.889646488" name="TheElements"/>
+>>>>>>> 1d7447080bd67576f8d5e6911257898db3b681f3
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+<<<<<<< HEAD
 		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1355752813;com.android.toolchain.gcc.1355752813.2105292745;com.android.gcc.compiler.1055566342;com.android.gcc.inputType.992816206">
+=======
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1592219880;com.android.toolchain.gcc.1592219880.975819979;com.android.gcc.compiler.1175828366;com.android.gcc.inputType.1425228098">
+>>>>>>> 1d7447080bd67576f8d5e6911257898db3b681f3
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.android.AndroidPerProjectProfile"/>
 		</scannerConfigBuildInfo>
 	</storageModule>

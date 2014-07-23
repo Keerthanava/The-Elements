@@ -22,6 +22,9 @@ ifneq ($(TARGET_ARCH_PROFILING_OK),yes)
 endif
 
 # Print some build info
+
+# comment this line 
+
 #$(warning $(APP_OPTIM) build for $(TARGET_ARCH_ABI), profiling: $(USE_PROFILING))
 
 LOCAL_CFLAGS := -DANDROID_NDK \

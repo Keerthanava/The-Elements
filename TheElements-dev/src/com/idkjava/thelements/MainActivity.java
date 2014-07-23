@@ -52,6 +52,8 @@ import com.idkjava.thelements.preferences.PreferencesActivity;
 import com.pollfish.constants.Position;
 import com.pollfish.main.PollFish;
 
+import android.media.MediaPlayer;
+
 public class MainActivity extends ReportingActivity implements DialogInterface.OnCancelListener
 {
     //Constants for dialogue ids
@@ -99,6 +101,9 @@ public class MainActivity extends ReportingActivity implements DialogInterface.O
     private static float mDPI; 
 
     private Tracker mTracker;
+    
+    
+    // added ndk features. Able to launch using ndk
 
     @Override
     protected void onCreate(Bundle savedInstanceState) 
@@ -375,7 +380,15 @@ public class MainActivity extends ReportingActivity implements DialogInterface.O
         }   
         case R.id.play_pause:
         {
+        	
             play = !play;
+            if(play){
+        		startSound();
+        	}
+        	else
+        	{
+        		stopSound();
+        	}
             setPlayState(play);
             return true;
         }
@@ -412,6 +425,19 @@ public class MainActivity extends ReportingActivity implements DialogInterface.O
         }
         return false;
     }
+    
+
+    MediaPlayer mediaPlayer = new MediaPlayer();
+    public void startSound(){
+           mediaPlayer = MediaPlayer.create(this, R.raw.sound);
+           mediaPlayer.start();
+           mediaPlayer.setLooping(true);
+
+       }
+
+     public void stopSound(){
+           mediaPlayer.reset();
+       }
 
     //Set up the views based on the state of ui
     private void setUpViews()

@@ -11,12 +11,11 @@ public class SplashActivity extends ReportingActivity
 	//protected MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.sound);
 
 	@Override
-	protected void onCreate (Bundle savedInstanceState)
-	{
+	protected void onCreate (Bundle savedInstanceState){
 		super.onCreate(savedInstanceState); //Call the super method
 		
 		setContentView(R.layout.splash_activity);
-		
+
 		
 		new Handler().postDelayed(
 				new Runnable()
@@ -34,8 +33,5 @@ public class SplashActivity extends ReportingActivity
 
 		
 	}
-	
 
-	
-	
 }
