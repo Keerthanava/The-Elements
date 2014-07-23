@@ -1,6 +1,7 @@
 package com.idkjava.thelements.game;
 
 
+
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
@@ -9,14 +10,18 @@ import android.opengl.GLSurfaceView;
 import android.util.AttributeSet;
 import android.util.FloatMath;
 import android.view.MotionEvent;
+import android.media.MediaPlayer;
 
 import com.idkjava.thelements.MainActivity;
+import com.idkjava.thelements.R;
 
 public class SandView extends GLSurfaceView
 {
   private static final char FINGER_MOVE = 2;
 	private static final char FINGER_DOWN = 1;
 	private static final char FINGER_UP = 0;
+	private MediaPlayer mediaPlayer;
+	private Context thisContext;
 
 	 //Touch event related variables
 	private int m_touchState;
@@ -28,11 +33,14 @@ public class SandView extends GLSurfaceView
 	private SandViewRenderer mRenderer; //Declare the renderer
 
 	private static boolean m_isDragState = false;
+	
+	
 
 	//Constructor
 	public SandView(Context context, AttributeSet attrs)
 	{
 		super(context, attrs);
+		thisContext = context;
 		mRenderer = new SandViewRenderer(); //Set up the Renderer for the View
 		setEGLConfigChooser(8, 8, 8, 8, // RGBA channel bits
 				16, 0); // depth and stencil channel min bits
@@ -55,15 +63,29 @@ public class SandView extends GLSurfaceView
     }
   }
 
+  public void startSound(){
+
+      mediaPlayer = MediaPlayer.create(thisContext, R.raw.sound);
+      mediaPlayer.start();
+      mediaPlayer.setLooping(true);
+
+  }
+  
+  public void stopSound(){
+      mediaPlayer.reset();
+  }
+  
   private boolean handleNormalTouch(final MotionEvent event) {
     // Set the touch state in JNI
     char fingerState;
     if (event.getAction() == MotionEvent.ACTION_DOWN)
     {
+    	startSound();
       fingerState = FINGER_DOWN;
     }
     else if (event.getAction() == MotionEvent.ACTION_UP)
     {
+    	stopSound();
       fingerState = FINGER_UP;
     }
     else
@@ -82,6 +104,7 @@ public class SandView extends GLSurfaceView
 
     switch (event.getAction() & MotionEvent.ACTION_MASK) {
     case MotionEvent.ACTION_DOWN:
+    	startSound();
       setMouseLocation(FINGER_DOWN, (int) event.getX(), (int) event.getY());
       m_touchState = TOUCH;
       break;
@@ -108,6 +131,7 @@ public class SandView extends GLSurfaceView
 
       break;
     case MotionEvent.ACTION_UP:
+    	stopSound();
       setMouseLocation(FINGER_UP, (int) event.getX(), (int) event.getY());
       m_touchState = IDLE;
       break;
@@ -121,6 +145,7 @@ public class SandView extends GLSurfaceView
     return true;
   }
 
+  
 	//@formatter:off
 	private static native void setMouseLocation(char state, int x, int y);
 	private static native void setPinchScale(float scale);
@@ -132,7 +157,10 @@ public class SandView extends GLSurfaceView
 	{
 		System.loadLibrary("thelements");
 	}
+	
 }
+
+
 
 class SandViewRenderer implements GLSurfaceView.Renderer
 {
@@ -153,6 +181,7 @@ class SandViewRenderer implements GLSurfaceView.Renderer
 	{
 	    nativeRender();
 	}
+	
 
 	//@formatter:off
 	private static native void nativeResize(int width, int height); //Jni resize
@@ -164,4 +193,6 @@ class SandViewRenderer implements GLSurfaceView.Renderer
 	{
 		System.loadLibrary("thelements");
 	}
+	
+	
 }
